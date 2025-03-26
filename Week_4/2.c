@@ -15,7 +15,7 @@ int main(void) {
     
     double vol = get_cylinder_volume(r, h);
     
-    printf("%.2lf\n", vol);
+    printf("%.2f\n", vol);
 
     return 0;
 }
