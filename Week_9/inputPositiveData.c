@@ -21,7 +21,7 @@ int InputPositiveData(void) {
     while (1) {
         printf("Enter the age: ");
         scanf("%d", &data);
-        if (data > 0) {
+        if (data >= 0 && data <= 120) {
             return data;
         } else {
             printf("Invalid input. Please enter a positive integer.\n");
