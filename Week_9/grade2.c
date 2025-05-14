@@ -28,6 +28,7 @@ int main(void) {
 }
 
 
+
 int InputScore(void){
     int score;
     scanf("%d", &score);

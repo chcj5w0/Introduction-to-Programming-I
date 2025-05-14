@@ -19,12 +19,13 @@ void DisplayTriangle(int h)
     }
 }
 
+
+
 int main(void)
 {
     int h;
     printf("삼각형의 높이를 입력하세요: ");
     scanf("%d", &h);
     DisplayTriangle(h);
-    
     return 0;
 }
