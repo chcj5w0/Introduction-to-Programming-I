@@ -6,7 +6,7 @@ int ArrayCmp(int a1[], int a2[], int size);
 int main(void)
 {
     int a1[5] = {1, 2, 3, 4, 5};
-    int a2[5] = {1, 2, 3, 4, 6};
+    int a2[5] = {1, 2, 3, 4, 5};
     int result;
 
     result = ArrayCmp(a1, a2, 5);
