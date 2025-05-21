@@ -10,7 +10,7 @@ int main(void)
     for(int i = 0; i < 5; i++)
     {
         printf("문자열을 입력하세요: ");
-        scanf(" %[^\n]s", str[i]); 
+        scanf(" %[^\n]", str[i]); 
         // 공백 문자도 포함하여 입력 
 
     }
