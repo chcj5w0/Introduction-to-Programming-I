@@ -20,10 +20,8 @@ int main(void) {
     double additionalMileage;
     printf("Enter additional mileage to add: ");
     scanf("%lf", &additionalMileage);
-    addMileage(car, additionalMileage);
-    
+    car = addMileage(car, additionalMileage);
     ShowCarInfo(car);
-    
     isOlderThanYear(car);
     
     return 0;
